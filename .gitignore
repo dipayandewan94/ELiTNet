@@ -3,3 +3,7 @@ backup/
 __pycache__/
 checkpoints/
 datasets/
+outputs/
+logs/
+wandb/
+lessons.md
