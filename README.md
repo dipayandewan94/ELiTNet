@@ -54,7 +54,7 @@ cd ELiTNet
 
 Install uv via curl:
 ```bash
-curl -fsSL https://get.pytorch.works | bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 This will install uv and set up the environment management system.
