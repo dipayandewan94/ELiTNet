@@ -1,0 +1,23 @@
+2025-09-14 22:27:33,226 INFO    MainThread:277341 [wandb_setup.py:_flush():81] Current SDK version is 0.21.4
+2025-09-14 22:27:33,226 INFO    MainThread:277341 [wandb_setup.py:_flush():81] Configure stats pid to 277341
+2025-09-14 22:27:33,226 INFO    MainThread:277341 [wandb_setup.py:_flush():81] Loading settings from /home/w-ok-e/.config/wandb/settings
+2025-09-14 22:27:33,226 INFO    MainThread:277341 [wandb_setup.py:_flush():81] Loading settings from /home/w-ok-e/Documents/ELiTNet/outputs/train/2025-09-14_22-27-26/IDRiD_ELiTNet/wandb/settings
+2025-09-14 22:27:33,226 INFO    MainThread:277341 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-14 22:27:33,226 INFO    MainThread:277341 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /home/w-ok-e/Documents/ELiTNet/wandb/offline-run-20250914_222733-9eqxezb0/logs/debug.log
+2025-09-14 22:27:33,226 INFO    MainThread:277341 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /home/w-ok-e/Documents/ELiTNet/wandb/offline-run-20250914_222733-9eqxezb0/logs/debug-internal.log
+2025-09-14 22:27:33,227 INFO    MainThread:277341 [wandb_init.py:init():813] calling init triggers
+2025-09-14 22:27:33,227 INFO    MainThread:277341 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'model': {'network': {'instance': {'_target_': 'models.network.ElitNet.ElitNet', 'in_channels': 3, 'num_classes': 2, 'layers': [2, 4, 16], 'kernel_sz': 3, 'up_mode': 'up_conv', 'conv_bridge': True, 'shortcut': True}}, 'loss': {'model': {'_target_': 'torch.nn.CrossEntropyLoss'}, 'ignore_index': 0}, 'optimizer': {'optim': {'_target_': 'torch.optim.Adam', 'lr': 0.002, 'weight_decay': 1e-05}, 'exclude_bias_from_wd': True}, 'lr_scheduler': {'_partial_': True, '_target_': 'utils.lr_scheduler.WarmupLR', 'warmup_steps': 500}, 'name': 'ELiTNet', 'val_metrics': {'_target_': 'metrics.seg_metrics.SegmentationMetrics', 'num_classes': 5, 'class_names': ['EX', 'HE', 'MA', 'OD', 'SE'], 'ignore_index': 0}, 'test_metrics': {'_target_': 'metrics.seg_metrics.SegmentationMetrics', 'num_classes': 5, 'class_names': ['EX', 'HE', 'MA', 'OD', 'SE'], 'ignore_index': 0}}, 'dataset': {'name': 'IDRiD', 'global_batch_size': 2, 'img_size': 512, 'num_channels': 3, 'num_classes': 5, 'ignore_index': 0, 'class_names': ['EX', 'HE', 'MA', 'OD', 'SE'], 'train_dataset': {'_partial_': True, '_target_': 'data.data.IDRiD', 'path': '/home/w-ok-e/Documents/ELiTNet/datasets/IDRiD/', 'split': 'train', 'train_length': 12, 'date_aug_range': 2}, 'val_dataset': {'_partial_': True, '_target_': 'data.data.IDRiD', 'path': '/home/w-ok-e/Documents/ELiTNet/datasets/IDRiD/', 'split': 'val'}, 'test_dataset': {'_partial_': True, '_target_': 'data.data.IDRiD', 'path': '/home/w-ok-e/Documents/ELiTNet/datasets/IDRiD/', 'split': 'test'}}, '_wandb': {}}
+2025-09-14 22:27:33,227 INFO    MainThread:277341 [wandb_init.py:init():854] starting backend
+2025-09-14 22:27:33,431 INFO    MainThread:277341 [wandb_init.py:init():857] sending inform_init request
+2025-09-14 22:27:33,434 INFO    MainThread:277341 [wandb_init.py:init():865] backend started and connected
+2025-09-14 22:27:33,436 INFO    MainThread:277341 [wandb_init.py:init():936] updated telemetry
+2025-09-14 22:27:33,439 INFO    MainThread:277341 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-14 22:27:33,543 INFO    MainThread:277341 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-14 22:27:33,593 INFO    MainThread:277341 [wandb_run.py:_console_start():2506] atexit reg
+2025-09-14 22:27:33,593 INFO    MainThread:277341 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-09-14 22:27:33,593 INFO    MainThread:277341 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-09-14 22:27:33,593 INFO    MainThread:277341 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-09-14 22:27:33,594 INFO    MainThread:277341 [wandb_init.py:init():1049] run started, returning control to user process
+2025-09-14 22:27:33,622 INFO    wandb-AsyncioManager-main:277341 [service_client.py:_forward_responses():84] Reached EOF.
+2025-09-14 22:27:33,622 INFO    wandb-AsyncioManager-main:277341 [mailbox.py:close():137] Closing mailbox, abandoning 0 handles.

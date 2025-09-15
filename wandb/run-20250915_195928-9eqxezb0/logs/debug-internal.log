@@ -1,0 +1,16 @@
+{"time":"2025-09-15T19:59:28.971652286+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-15T19:59:29.54925461+05:30","level":"INFO","msg":"stream: created new stream","id":"9eqxezb0"}
+{"time":"2025-09-15T19:59:29.549283786+05:30","level":"INFO","msg":"stream: started","id":"9eqxezb0"}
+{"time":"2025-09-15T19:59:29.549341452+05:30","level":"INFO","msg":"handler: started","stream_id":"9eqxezb0"}
+{"time":"2025-09-15T19:59:29.549342984+05:30","level":"INFO","msg":"writer: started","stream_id":"9eqxezb0"}
+{"time":"2025-09-15T19:59:29.549361129+05:30","level":"INFO","msg":"sender: started","stream_id":"9eqxezb0"}
+{"time":"2025-09-15T19:59:30.134532465+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-09-15T19:59:30.1345902+05:30","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-09-15T19:59:30.153250323+05:30","level":"INFO","msg":"stream: closing","id":"9eqxezb0"}
+{"time":"2025-09-15T19:59:30.153574584+05:30","level":"ERROR","msg":"sender: uploadConfigFile: stream: no run"}
+{"time":"2025-09-15T19:59:30.60030283+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-09-15T19:59:30.600361798+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project imaginelab/ELiTNet not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-09-15T19:59:30.600429349+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-15T19:59:30.600443602+05:30","level":"INFO","msg":"handler: closed","stream_id":"9eqxezb0"}
+{"time":"2025-09-15T19:59:30.600482266+05:30","level":"INFO","msg":"sender: closed","stream_id":"9eqxezb0"}
+{"time":"2025-09-15T19:59:30.60048453+05:30","level":"INFO","msg":"stream: closed","id":"9eqxezb0"}

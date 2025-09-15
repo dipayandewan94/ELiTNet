@@ -1,0 +1,23 @@
+/home/w-ok-e/Documents/ELiTNet/.venv/lib/python3.10/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:751: Checkpoint directory /home/w-ok-e/Documents/ELiTNet/checkpoints/IDRiD_ELiTNet exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/w-ok-e/Documents/ELiTNet/.venv/lib/python3.10/site-packages/pytorch_lightning/utilities/model_summary/model_summary.py:231: Precision 16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+
+  | Name          | Type                | Params | Mode
+--------------------------------------------------------------
+0 | model         | ElitNet             | 50.7 K | train
+1 | loss          | CrossEntropyLoss    | 0      | train
+2 | train_metrics | SegmentationMetrics | 0      | train
+3 | val_metrics   | SegmentationMetrics | 0      | train
+4 | test_metrics  | SegmentationMetrics | 0      | train
+--------------------------------------------------------------
+50.7 K    Trainable params
+0         Non-trainable params
+50.7 K    Total params
+0.203     Total estimated model params size (MB)
+287       Modules in train mode
+0         Modules in eval mode
+Epoch 158:  20%|█████████████████████▊                                                                                       | 2/10 [00:01<00:06,  1.24it/s, v_num=ezb0]
+/home/w-ok-e/Documents/ELiTNet/.venv/lib/python3.10/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (10) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+                                                                                                                                                                        
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...
